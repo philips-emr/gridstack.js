@@ -1,0 +1,13 @@
+# yamllint disable-file
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "gridstackjs"
+  description: "Mobile-friendly modern Typescript library for dashboard layout and creation. Making a drag-and-drop, multi-column responsive dashboard has never been easier. Has multiple bindings and works great with React, Vue, Angular, Knockout.js, Ember and others (see frameworks section)."
+  title: "gridstack.js"
+  tags:
+    - emr
+spec:
+  type: "library"
+  owner: "group:default/emr-tasy-framework-contributors"
+  lifecycle: "production"
