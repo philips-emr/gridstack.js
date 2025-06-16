@@ -7,6 +7,16 @@ metadata:
   title: "gridstack.js"
   tags:
     - emr
+  links:
+  - url: https://fortify.philips.com/ssc/html/ssc/version/18126/audit?filterset=69608e28-5b92-4f48-98c2-d9c6d91fa347&orderby=friority&viewTab=code
+    title: Fortify
+    icon: docs
+  - url: https://blackduck.philips.com/api/projects/28c5134a-5571-4796-9495-380f58af0010/versions/57828a75-1a5f-4bbd-96e5-df86f79c01e7/components?filter=bomInclusion%3Afalse&filter=bomMatchInclusion%3Afalse&filter=bomMatchReviewStatus%3Areviewed&limit=100&offset=0
+    title: BlackDuck
+    icon: docs          
+  annotations:
+    blackduck/project: EMR-CM-TasyFrameworkDependencies/gridstack.js
+    fortify/project: EMR/gridstack.js
 spec:
   type: "library"
   owner: "group:default/emr-tasy-framework-contributors"
